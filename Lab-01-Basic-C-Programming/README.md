@@ -56,7 +56,6 @@ Department: CSE
 University: First Capital University of Bangladesh
 ```
 
-Replace the sample name and ID with your own details.
 
 ---
 
