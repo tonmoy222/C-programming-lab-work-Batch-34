@@ -66,7 +66,12 @@ Average = 20.00
 
 ---
 
-## Question 12: Write a C program to calculate the area and perimeter of a rectangle.
+## 12. Calculate the Area and Perimeter of a Rectangle
+
+### Question
+Write a C program to calculate the area and perimeter of a rectangle.
+
+### Flowchart
 
 ```mermaid
 flowchart TD
@@ -79,3 +84,31 @@ flowchart TD
     G --> H["Display Area and Perimeter"]
     H --> I([End])
 ```
+
+### Program
+
+**File:** `12_rectangle.c`
+
+
+
+### Input
+
+```text
+Length = 10
+Width = 5
+```
+
+
+### Output
+
+```text
+Area = 50
+Perimeter = 30
+```
+
+### Calculation
+
+- **Area** = Length × Width = 10 × 5 = 50
+- **Perimeter** = 2 × (Length + Width) = 2 × (10 + 5) = 30
+
+
