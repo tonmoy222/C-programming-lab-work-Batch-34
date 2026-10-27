@@ -50,8 +50,8 @@ No input required.
 ### Output
 
 ```text
-Name: Your Name
-ID: Your Student ID
+Name: Sree Tonmoy Kumar
+ID: 0572620005101012
 Department: CSE
 University: First Capital University of Bangladesh
 ```
