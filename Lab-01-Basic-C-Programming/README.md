@@ -87,5 +87,3 @@ Welcome to C Programming!
 I am learning C language.
 This is my Lab 01 program.
 ```
-
-**Note:** The program links above assume your existing files have these exact filenames. If your filenames differ, update the links accordingly.
