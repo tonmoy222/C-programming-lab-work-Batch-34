@@ -84,6 +84,7 @@ No input required.
 
 ```text
 Welcome to C Programming!
-I am learning C language.
-This is my Lab 01 program.
+I am a CSE student.
+I study at First Capital University of Bangladesh.
+I am learning C programming
 ```
