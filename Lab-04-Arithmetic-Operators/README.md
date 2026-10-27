@@ -68,10 +68,14 @@ Average = 20.00
 
 ## Question 12: Write a C program to calculate the area and perimeter of a rectangle.
 
+```mermaid
 flowchart TD
-    A([Start]) --> B["Set Length = 10 and Width = 5"]
-    B --> C["Calculate Area = Length times Width"]
-    C --> D["Calculate Perimeter = 2 times the sum of Length and Width"]
-    D --> E["Display Area and Perimeter"]
-    E --> F([End])
-
+    A([Start]) --> B["Set Length to 10"]
+    B --> C["Set Width to 5"]
+    C --> D["Calculate Area"]
+    D --> E["Area = Length times Width"]
+    E --> F["Calculate Perimeter"]
+    F --> G["Perimeter = 2 times Length plus Width"]
+    G --> H["Display Area and Perimeter"]
+    H --> I([End])
+```
