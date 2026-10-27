@@ -89,6 +89,8 @@ flowchart TD
 
 **File:** `12_rectangle.c`
 
+See [`12_rectangle.c`](https://github.com/tonmoy222/C-programming-lab-work-Batch-34/blob/main/Lab-04-Arithmetic-Operators/12_rectangle.c).
+
 
 
 ### Input
