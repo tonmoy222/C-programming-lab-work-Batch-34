@@ -1,24 +1,19 @@
 # Lab 06: Increment, Decrement and Assignment Operators
 
-This lab demonstrates increment and decrement operators, compound assignment operators, and swapping two numbers using a third variable in C.
-
----
-
 ## 17. Increment and Decrement Operators
 
 ### Question
-
 Write a C program to demonstrate the use of increment and decrement operators.
 
 ### Flowchart
 
 ```mermaid
 flowchart TD
-    A([Start]) --> B["Set a to 5"]
+    A([Start]) --> B["Set a = 5"]
     B --> C["Display a"]
-    C --> D["Increase a by 1"]
+    C --> D["Increment a by 1"]
     D --> E["Display a"]
-    E --> F["Decrease a by 1"]
+    E --> F["Decrement a by 1"]
     F --> G["Display a"]
     G --> H([End])
 ```
@@ -30,8 +25,7 @@ flowchart TD
 See [`17_increment_decrement.c`](./17_increment_decrement.c).
 
 ### Input
-
-No user input is required. The initial value of `a` is 5.
+No user input is required. The initial value is 5.
 
 ### Output
 
@@ -42,34 +36,27 @@ After decrement = 5
 ```
 
 ### Summary
-
-This program demonstrates how increment and decrement operators increase or decrease a variable's value by one.
+This program demonstrates increment and decrement operators in C.
 
 ---
 
 ## 18. Compound Assignment Operators
 
 ### Question
-
 Write a C program to demonstrate the use of compound assignment operators.
 
 ### Flowchart
 
 ```mermaid
 flowchart TD
-    A([Start]) --> B["Set a to 10"]
-    B --> C["Display initial value"]
-    C --> D["Add 5 to a"]
-    D --> E["Display a"]
-    E --> F["Subtract 3 from a"]
-    F --> G["Display a"]
-    G --> H["Multiply a by 2"]
-    H --> I["Display a"]
-    I --> J["Divide a by 4"]
-    J --> K["Display a"]
-    K --> L["Find remainder after division by 3"]
-    L --> M["Display a"]
-    M --> N([End])
+    A([Start]) --> B["Set a = 10"]
+    B --> C["Add 5 to a"]
+    C --> D["Subtract 3 from a"]
+    D --> E["Multiply a by 2"]
+    E --> F["Divide a by 4"]
+    F --> G["Find remainder after division by 3"]
+    G --> H["Display results"]
+    H --> I([End])
 ```
 
 ### Program
@@ -79,8 +66,7 @@ flowchart TD
 See [`18_compound_assignment.c`](./18_compound_assignment.c).
 
 ### Input
-
-No user input is required. The initial value of `a` is 10.
+No user input is required. The initial value is 10.
 
 ### Output
 
@@ -94,28 +80,25 @@ After %= 3: 0
 ```
 
 ### Summary
-
-This program demonstrates the compound assignment operators `+=`, `-=`, `*=`, `/=`, and `%=` in C.
+This program demonstrates the compound assignment operators +=, -=, *=, /=, and %=.
 
 ---
 
 ## 19. Swap Two Numbers Using a Third Variable
 
 ### Question
-
 Write a C program to swap two numbers using a third variable.
 
 ### Flowchart
 
 ```mermaid
 flowchart TD
-    A([Start]) --> B["Set a to 10 and b to 20"]
-    B --> C["Display values before swapping"]
-    C --> D["Store a in temp"]
-    D --> E["Assign b to a"]
-    E --> F["Assign temp to b"]
-    F --> G["Display values after swapping"]
-    G --> H([End])
+    A([Start]) --> B["Set a = 10 and b = 20"]
+    B --> C["Store a in temp"]
+    C --> D["Set a equal to b"]
+    D --> E["Set b equal to temp"]
+    E --> F["Display a and b"]
+    F --> G([End])
 ```
 
 ### Program
@@ -125,8 +108,7 @@ flowchart TD
 See [`19_swap_two_numbers.c`](./19_swap_two_numbers.c).
 
 ### Input
-
-No user input is required. The initial values are `a = 10` and `b = 20`.
+No user input is required. The initial values are a = 10 and b = 20.
 
 ### Output
 
@@ -140,16 +122,10 @@ b = 10
 ```
 
 ### Summary
-
-This program swaps the values of two variables using a temporary variable.
+This program swaps two numbers using a temporary variable.
 
 ---
 
 ## Lab 06 Conclusion
 
-In this lab, we learned how to:
-
-- Use increment and decrement operators.
-- Apply compound assignment operators.
-- Swap two numbers using a temporary variable.
-- Understand how variable values change during program execution.
+In this lab, we learned about increment and decrement operators, compound assignment operators, and swapping two numbers using a temporary variable.
