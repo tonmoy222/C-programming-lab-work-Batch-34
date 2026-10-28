@@ -1,4 +1,9 @@
+
 # Lab 07: Conditional Operator
+
+This lab demonstrates how to use the conditional operator in C to make decisions.
+
+---
 
 ## 20. Find the Larger of Two Numbers
 
@@ -36,6 +41,7 @@ Larger number = 20
 ### Summary
 This program uses the conditional operator to find the larger of two numbers.
 
+---
 
 ## 21. Find the Largest of Three Numbers
 
@@ -73,6 +79,7 @@ Largest number = 25
 ### Summary
 This program uses the conditional operator to find the largest among three numbers.
 
+---
 
 ## 22. Check Whether a Number Is Even or Odd
 
@@ -108,3 +115,9 @@ Odd number
 
 ### Summary
 This program uses the modulus operator and conditional operator to check whether a number is even or odd.
+
+---
+
+## Lab 07 Conclusion
+
+In this lab, we learned how to use the conditional operator (?:) to find the larger of two numbers, the largest of three numbers, and check whether a number is even or odd.
