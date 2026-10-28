@@ -25,7 +25,7 @@ flowchart TD
 
 ### Program
 
-**File:** `20_larger_of_two.c`
+
 
 See [`20_larger_of_two.c`](./20_larger_of_two.c).
 
@@ -63,7 +63,7 @@ flowchart TD
 
 ### Program
 
-**File:** `21_largest_of_three.c`
+
 
 See [`21_largest_of_three.c`](./21_largest_of_three.c).
 
@@ -100,7 +100,6 @@ flowchart TD
 
 ### Program
 
-**File:** `22_even_or_odd.c`
 
 See [`22_even_or_odd.c`](./22_even_or_odd.c).
 
