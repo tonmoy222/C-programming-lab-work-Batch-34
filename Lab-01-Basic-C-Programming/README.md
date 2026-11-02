@@ -1,146 +1,84 @@
-# Lab 05: Mathematical Programs in C
 
-## 13. Calculate the Area and Circumference of a Circle
+# Lab 01: Basic C Programming
 
-### Question
-Write a C program to calculate the area and circumference of a circle.
+## Program 01: Print Hello, World!
 
-### Flowchart
+### Question:
+Write a C program to print "Hello, World!".
 
+### Flowchart:
 ```mermaid
 flowchart TD
-    A([Start]) --> B["Set Radius to 5"]
-    B --> C["Set Pi to 3.1416"]
-    C --> D["Calculate Area"]
-    D --> E["Calculate Circumference"]
-    E --> F["Display Area and Circumference"]
-    F --> G([End])
+    A([Start]) --> B["Display Hello, World!"]
+    B --> C([End])
 ```
 
-### Program
-See [`13_circle.c`](https://github.com/tonmoy222/C-programming-lab-work-Batch-34/blob/main/Lab-05-Mathematical-Programs/13_circle.c).
+### Input:
+No input required.
 
-### Input
+### Output:
 ```text
-Radius = 5.0
-Pi = 3.1416
-```
-
-### Output
-```text
-Area = 78.54
-Circumference = 31.42
-```
-
-
----
-
-## 14. Convert Celsius to Fahrenheit
-
-### Question
-Write a C program to convert temperature from Celsius to Fahrenheit.
-
-### Flowchart
-
-```mermaid
-flowchart TD
-    A([Start]) --> B["Set Celsius to 30"]
-    B --> C["Calculate Fahrenheit"]
-    C --> D["Display Celsius and Fahrenheit"]
-    D --> E([End])
-```
-
-### Program
-See [`14_celsius_to_fahrenheit.c`](https://github.com/tonmoy222/C-programming-lab-work-Batch-34/blob/main/Lab-05-Mathematical-Programs/14_celsius_to_fahrenheit.c).
-
-### Input
-```text
-Celsius = 30.0
-```
-
-### Output
-```text
-Celsius = 30.00
-Fahrenheit = 86.00
+Hello, World!
 ```
 
 ---
 
-## 15. Calculate Simple Interest
+## Program 02: Display Personal Information
 
-### Question
-Write a C program to calculate simple interest using principal, rate, and time.
+### Question:
+Write a C program to display your name, ID, department, and university name.
 
-### Flowchart
-
+### Flowchart:
 ```mermaid
 flowchart TD
-    A([Start]) --> B["Set Principal to 1000"]
-    B --> C["Set Rate to 5"]
-    C --> D["Set Time to 2 years"]
-    D --> E["Calculate Simple Interest"]
-    E --> F["Display Simple Interest"]
-    F --> G([End])
+    A([Start]) --> B["Display Name"]
+    B --> C["Display ID"]
+    C --> D["Display Department"]
+    D --> E["Display University Name"]
+    E --> F([End])
 ```
 
-### Program
-See [`15_simple_interest.c`](https://github.com/tonmoy222/C-programming-lab-work-Batch-34/blob/main/Lab-05-Mathematical-Programs/15_simple_interest.c).
+### Input:
+No input required. Personal information is predefined in the program.
 
-### Input
+### Output:
 ```text
-Principal = 1000
-Rate = 5
-Time = 2 years
-```
-
-### Output
-```text
-Principal = 1000.00
-Rate = 5.00%
-Time = 2.00 years
-Simple Interest = 100.00
+Name: Your Name
+ID: Your ID
+Department: CSE
+University: First Capital University of Bangladesh
 ```
 
 ---
 
-## 16. Calculate Total Marks, Average Marks, and Percentage
+## Program 03: Print Multiple Lines Using printf()
 
-### Question
-Write a C program to calculate a student's total marks, average marks, and percentage in three subjects.
+### Question:
+Write a C program to print multiple lines of text using printf().
 
-### Flowchart
-
+### Flowchart:
 ```mermaid
 flowchart TD
-    A([Start]) --> B["Set Marks to 80, 75 and 90"]
-    B --> C["Calculate Total Marks"]
-    C --> D["Calculate Average Marks"]
-    D --> E["Calculate Percentage"]
-    E --> F["Display Total, Average and Percentage"]
-    F --> G([End])
+    A([Start]) --> B["Print First Line"]
+    B --> C["Print Second Line"]
+    C --> D["Print Third Line"]
+    D --> E["Print Fourth Line"]
+    E --> F([End])
 ```
 
-### Program
-See [`16_student_marks.c`](https://github.com/tonmoy222/C-programming-lab-work-Batch-34/blob/main/Lab-05-Mathematical-Programs/16_student_marks.c).
+### Input:
+No input required.
 
-### Input
+### Output:
 ```text
-Subject 1 = 80
-Subject 2 = 75
-Subject 3 = 90
-Full Marks = 300
+Hello!
+Welcome to C Programming.
+This is my third program.
+Thank You!
 ```
-
-### Output
-```text
-Total Marks = 245.00
-Average Marks = 81.67
-Percentage = 81.67%
-```
-
 
 ---
 
-## Lab 05 Conclusion
+## Lab 01 Conclusion
 
-In this lab, we practiced mathematical formulas, variables, constants, and arithmetic operators in C programming.
+In this lab, we learned how to display text, print personal information, and print multiple lines using the printf() function in C.
